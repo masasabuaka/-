@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: jinro-game
+    env: python
+    buildCommand: ""
+    startCommand: "python main.py"
+    plan: free
